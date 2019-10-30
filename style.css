@@ -1,0 +1,82 @@
+body {
+  background-color: #93C6D6;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Big Shoulders Text', bold;}
+
+p {
+
+}
+
+img {
+  border-radius: 50%;
+}
+
+#solo-link {
+  text-decoration: none;
+  color: #FCFCFC;
+  background-color: #5f6769;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+}
+
+#solo-link:hover {
+  background-color: #93C6D6;
+}
+
+.media-icon {
+  color: black;
+}
+
+.media-icon:hover {
+  color: #93C6D6;
+}
+
+.card-white {
+  margin: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #C6E2E9;
+  box-shadow: 50px 10px 30px rgba(0,0,0,0.1);
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  color: black;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
